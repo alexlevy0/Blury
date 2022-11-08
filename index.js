@@ -21,6 +21,7 @@ const wait = (ms) => new Promise((res) => setTimeout(res, ms));
   await page.$eval("#pass", (form) => form.click());
   const email = "REPLACE";
   const pwd = "REPLACE";
+  
   await page.focus("#email");
   await page.keyboard.type(email);
   await page.focus("#pass");
