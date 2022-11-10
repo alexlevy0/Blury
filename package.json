@@ -11,6 +11,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "modern-async": "^1.1.2",
     "puppeteer": "^19.2.2",
     "puppeteer-table-parser": "^2.1.0",
     "request": "^2.88.2"
